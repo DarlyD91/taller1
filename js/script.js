@@ -79,9 +79,9 @@ else if(usuario!="jfajardo" && password!="qwerty"){
 
 //Condicional múltiple
 
-let no1=prompt("Digite el primer numero");
+/*let no1=prompt("Digite el primer numero");
 let no2=prompt("Digite el segundo numero");
-let opcion=prompt("Seleccione una operacion");
+let opcion=prompt("Seleccione una operacion ");
 let resultado
 
 switch(opcion){
@@ -113,6 +113,26 @@ switch(opcion){
     default:
         alert("La opción no es valida");
     break;
+}*/
 
+let i
+
+for(i=0;i<5;i++){
+    console.log("Hola mundo X2");
+}
+
+let repetir=1;
+
+while(repetir=1){
+    console.log("Ay hola");
+    repetir=prompt("Deseas continuar? 1=Sí 2=No");
+}
+
+do{
+    console.log("Ay hola");
+    repetir=confirm("Deseas continuar?");
+}while(repetir=true){
+    console.log("Ay hola2");
+    repetir=prompt("Deseas continuar? 1=Sí 2=No");
 }
 
