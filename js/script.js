@@ -103,7 +103,7 @@ switch(opcion){
         alert(`El resultado de la division es ${resultado.toFixed(2)}`);
     break;
     case "potencia":
-        resultado=no1**no2
+        resultado=Math.pow(no1,no2)
         alert(`El resultado de la potencia es ${resultado.toFixed(2)}`);
     break;
     case "raiz":
