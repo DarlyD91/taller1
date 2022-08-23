@@ -1,0 +1,47 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('../img/fondo.jpg');
+  }
+
+  .navbar-brand{
+    font-family: Impact, Ha ettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .form-ejercicios {
+    width: 400px;
+    background: #00aea2;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+  }
+  
+  .form-ejercicios h1 {
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .group-form {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: 'calibri';
+    font-size: 18px;
+  }
+  
+  .form-ejercicios .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
