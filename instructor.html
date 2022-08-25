@@ -30,38 +30,53 @@
     </nav>
 
     <form class="form-ejercicios">
-        <center><h1>CALCULADORA</h1></center>
-        <div class="group-form">
-            <label for="num1" class="form-label">Ingrese un número</label>
-            <input type="number" class="form-control" id="num1">
-        </div>
-        <div class="group-form">
-            <label for="num2" class="form-label">Ingrese otro número</label>
-            <input type="number" class="form-control" id="num2">
-        </div>
+        <center><h1>INSTRUCTORES SENA</h1></center>
 
         <div class="group-form">
-            <label>Seleccione una operación</label>
-            <select class="form-select" id="operacion">
+            <label>NOMBRE DEL INSTRUCTOR</label>
+            <select class="form-select" id="nombre">
                 <option selected>...</option>
-                <option value="1">Suma</option>
-                <option value="2">Resta</option>
-                <option value="3">Multiplicación</option>
-                <option value="4">División</option>
+                <option value="1">YANETH</option>
+                <option value="2">CAROLINA</option>
+                <option value="3">ADRIANA</option>
+                <option value="4">JENNIFER</option>
+                <option value="5">SANDRA</option>
+                <option value="6">ANDREA</option>
+                <option value="7">CRISTIAN</option>
             </select>
-        </div>
-            <center><button type="button" class="btn btn-primary btn-lg" id ="btn">CALCULAR</button></center>
             <br>
-          <center><div id="ops">
-          <button class="btn btn-danger" id="sum">SUMA</button>
-          <button class="btn btn-danger" id="rest">RESTA</button>
-        </div></center>
-            
+            <label>APELLIDO DEL INSTRUCTOR</label>
+            <select class="form-select" id="apellido">
+                <option selected>...</option>
+                <option value="1">CASTILLO</option>
+                <option value="2">FORERO</option>
+                <option value="3">DUARTE</option>
+                <option value="4">FRAJARDO</option>
+                <option value="5">RUEDA</option>
+                <option value="6">RAMOS</option>
+                <option value="7">BUITRAGO</option>
+            </select>
+            <br>
+            <label>MATERIA DEL INSTRUCTOR</label>
+            <select class="form-select" id="materia">
+                <option selected>...</option>
+                <option value="1">GESTION AMBIENTAL</option>
+                <option value="2">DESARROLLO DEL PROYECTO</option>
+                <option value="3">DISEÑO FRONTEND</option>
+                <option value="4">LENGUAJE JAVASCRIPT</option>
+                <option value="5">BASE DE DATOS</option>
+                <option value="6">PROMOVER</option>
+                <option value="7">LENGUAJE PHP</option>
+            </select>
+            <br>
+        <div id="com">
+            <center><button type="button" class="btn btn-primary btn-lg" id ="comprobar">COMPROBAR</button></center>
+        </div>
+        <br>
         <div id="respuesta">
         </div>
     </form>
     
-    <script src="js/calculadora.js"></script>
+    <script src="js/instructor.js"></script>
 </body>
 </html>
-

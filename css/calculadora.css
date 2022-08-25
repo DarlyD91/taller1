@@ -45,3 +45,20 @@
     margin: 16px 0;
     font-size: 16px;
   }
+
+  .correcto{
+    color: #80ff00;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .incorrecto{
+    color: red;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .btn{
+    width: 250px;
+  }
+  
